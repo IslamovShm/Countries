@@ -62,7 +62,7 @@ const Country = () => {
                                 <div>
                                     <h2>{data.name.common}</h2>
                                     <h5>
-                                        Population: <span>{data.population}</span>
+                                        Population: <span>{data.population.toLocaleString()}</span>
                                     </h5>
                                     <h5>
                                         Region: <span>{data.region}</span>
